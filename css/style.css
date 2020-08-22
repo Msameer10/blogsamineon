@@ -32,7 +32,7 @@ h1{
   from{right:-300px;opacity:0} to{right:0;opacity:1}}
 
 .w3-animate-opacity{
-  animation:opac 1s
+  animation:opac 2s;
 }
 @keyframes opac{from{opacity:0} to{opacity:1}}
 
@@ -145,6 +145,7 @@ body{
 
 footer{
   font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 0.1em;
 }
 
 .license{
@@ -188,16 +189,22 @@ footer{
 
 @media (max-width:991px) {
   h1{
-    font-size: 4em;
+    font-size: 5em;
+    max-width: 991px;
   }
 
   .tagline{
-    letter-spacing: 0.5em;
-    font-size: 0.6em;
+    letter-spacing: 0.3em;
+    font-size: 0.7em;
   }
 
   .navigation{
     display: none;
+  }
+
+  .license{
+    letter-spacing: 0.1em;
+    font-size: 0.5em;
   }
 
 }
