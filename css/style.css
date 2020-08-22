@@ -189,12 +189,11 @@ footer{
 
 @media (max-width:991px) {
   h1{
-    font-size: 4.2em;
-    max-width: 991px;
+    font-size: 4em;
   }
 
   .tagline{
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
     font-size: 0.6em;
   }
 
